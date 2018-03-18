@@ -1,0 +1,159 @@
+---
+update_time: '2017.08.06'
+name: 田力凯
+nickname: jason.tian
+meta_content: 前端狗一枚，求带走
+keywords: jason,前端,工作,简历
+ga_id: 'UA-92595311-1'
+age: 23岁
+gender: 男
+school: 黑龙江大学
+profession: 信息系统
+# grade: 1年
+exper: 1年
+english_level: CET-4
+# blog: https://www.xiao555.com.cn
+github: https://github.com/Tianlikai 
+website: 
+online: https://tianlikai.github.io/
+print: 
+apply_to_position: Web前端工程师
+description: !!md |
+  我叫田力凯，工作经验一年，现在在爱数工作，负责前端开发。自学web前端，后端python，node 也略知一二。能折腾，喜欢在实践中学习，自己搭建webpack和redux时就是自己学习，然后直接用在写个人博客上，在不断的跳坑脱坑中进步。希望在工作中能应用到自己所学的东西，跟产品一同成长。
+contact: # 联系方式
+  -
+    icon: fa-envelope
+    name: Email
+    value: 1024998526@qq.com
+  -
+    icon: fa-qq
+    name: QQ
+    value: '1024998526'
+  -
+    icon: fa-phone-square
+    name: PhoneNumber
+    value: '18321829583'
+honor: # 奖项荣誉
+tech: # 技能点
+  -
+    name: HTML/CSS
+    percentage: 80%
+  -
+    name: JavaScript
+    percentage: 75%
+  -
+    name: React + 
+    percentage: 75%
+  - 
+    name: Python
+    percentage: 50%
+experience: # 项目经验
+  -
+    section: 个人项目
+    project:
+      -
+        name: Spa System
+        date: 2017.12 - 至今
+        img:
+        website:
+        source_code: https://github.com/xiao555/nunjucks-extend-loader
+        des: !!md |
+          在项目研发过程中遇到的坑，如css/js没有代码规范、组件没有明确的使用文档、组件编写语法不统一、状态管理混乱、异步请求没有考虑网络外部环境等等。所以做出了一些改进。
+          
+          参照[react-toolbox]()、[antd]()等设计思路，基于scss + react + eslint写组件，react-router路由，redux和redux-saga管理状态和异步请求，webpack打包优化(热加载、切割、按需加载、公共打包)，fetch + mock做网络请求数据，
+      -
+        name: React Dev 
+        date: 2017.12
+        img:
+        website:
+        source_code: https://github.com/xiao555/Resume-it
+        des: !!md |
+          刚接手项目时，项目简单使用webpack做代码转译gulp做压缩打包，没有任何优化处理开发效率极低。
+
+          通过不停的折腾，先在原有gulp + webpack方案上添加了gulp-browsersync，但不久发现由于webpack转译代码并没有优化，更改js代码打包依然慢，于是直接使用webpack。
+
+          最终综合github上的解决方案，在原有基础上添加公共打包、代码切割（按需加载）、热重载等功能。
+  -
+    section: 工作经历
+    exper:
+      # - 
+      #   company: 爱数
+      #   time: 
+      #   desc: !!md |
+      #     实习期间到毕业转正都在爱数的大数据研发中心工作，实习期间主要负责[数中数]()官网需求和项目的数据抓取需求。转正后个人就接手[数中数]()Spa项目、负责该项目的前端需求和bug修护以及项目优化。
+      #   project:
+      #     -
+      #       des: !!md |
+      #         实习期间，作为前端的我实习岗位是python后端开发工程师，当时工作就是维护项目官网和爬虫系统的爬虫编写的工作。在两周的时间里学习python基础语法、scrapy框架、复习了mysql和MongoDB。就立即开始了网站数据抓取工作，爬虫过程中遇到的坑和问题实在太多啦，比如代理、反扒、url变更、网站升级等等。
+      #     -
+      #       des: !!md |
+      #         在数中数Spa项目的研发过程中我得到了质的提升。从项目的目录组织方式、页面布局、样式规范约定、js语法规范约定、基础组件编写以及组件api、高阶组件和公共方法、按需路由、状态管理和异步请求、单元测试、gulp以及webpack开发环境等都有搭建的经验。
+      #     -
+      #       des: !!md |
+      #         在解决bug的过程中，也积累了不少经验，总结中发现很多知识的细节点都是bug的产生点，很多离奇的bug几乎都是对基础语法的特性不熟悉造成的。所以只有多写代码当实际遇到问题总结经验，避免下次再犯。
+      #     -
+      #       des: !!md |
+      #         在开发的过程中，团队协作至关重要。在一个需求开始动手写之前和团队成员讨论时对每一细节点都要达成一致以提高效率。在动手写代码前，先抽象一个整体思路，再看各个小的部分是否能实现，然后再码。
+      - 
+        company: 爱数
+        date: 
+        desc: !!md |
+              通过秋招加入了爱数的凡响大数据事业部，主要研发方向是基于智能算法为B2B企业提供数据分析和数据可视化服务。
+              从实习至今做过python数据爬虫，还原官网设计稿，数中数Spa项目研发需求、sass平台需求，到现在开始写python后端接口。
+        project:
+          -
+            name: 数中数本地分析引擎
+            date: 
+            img: 
+            website: http://data.neirongjia.com/#/?_k=macpzt
+            source_code:
+            des: !!md |
+              数中数是一个数据分析产品，有非常多可视化交互并且业务逻辑非常复杂。
+              从接手项目开始，就发现react项目维护特别困难。如果组件没有文档和规范，接手难度会急剧增加。
+              在项目需求的更迭和踩坑中发现，离奇bug往往是基础知识点的疏忽，一定要做到知错能改。
+              在技术上我也比较愿意折腾，自学echarts，从发现项目的不规范到引入eslint工具，从没有模拟接口到引入mockjs，从gulp的慢和没有优化迁移到webpack打包工具，从复杂业务中发现reflux很难维护数据到迁移到redux管理数据和异步请求，属性代理、渲染接触和组合都有实战和比较分析。
+              一个严格的代码规范和文档，以及团队开会尽可能讨论明确业务细节，是我最大的收获。
+          -
+            name: 数中数sass平台
+            date: 
+            img: 
+            website: http://clubfit.vwmdev.com/
+            source_code:
+            des: !!md |
+              接手这个项目时已经对团队的框架比较熟悉了，从项目的目录组织方式、页面布局、代码约束、组件文档、状态管理、mock数据、打包工具、性能优化都能熟练搭建。
+              目前也在用[python]()写很多数中数需求的后端接口，对前[前后端同构]()、服务器端渲染也在研究和实践中。
+          -
+            name: 数中数爬虫系统
+            date: 2017.03 - 2017.05 
+            img: 
+            website: 
+            source_code:
+            des: !!md |
+              实习期间，想多了解后端的知识。所以总监让我学习python做数据运维的工作。
+              在导师的指导下，快速的学习了python基础语法和scrapy框架。爬虫过程中遇到的坑和问题实在太多啦，比如代理、反扒、url变更、网站升级等等。让自己掌握解决问题的方式和一门后端语言。
+          -
+            name: 数中数官网
+            date: 2017.02
+            img:
+            website: https://www.51desk.com/
+            source_code:
+            des: !!md |
+skill: # 技能清单
+      -
+        des: !!md |
+          能够用 HTML + CSS 编写语义化的代码，完成较复杂的布局，熟悉[Scss]()预处理工具。
+      -
+        des: !!md |
+          在公司的Spa项目中熟练掌握[React]() 技术栈，能抽象编写多种React组件[Demo](https://github.com/xiao555/Two-way-Data-Bindings)。 在组件和业务代码的编写上能灵活运用[高阶组件]()和[组合]()的方式使代码优雅，在此过程中使用了[es6、es7]()语法。
+      -
+        des: !!md |
+          熟练[Redux]()、[Reflux]() 等状态管理管理工具。用[Echarts]()写过多种图表配置文件。
+      -
+        des: !!md |
+          熟练[Webpack]()和[Gulp]()等构建工具，基于以上技术栈在Webpack和Gulp上都能搭建完整开发环境[Demo]()。
+      -
+        des: !!md |
+          熟悉 [Flask](), [Django](), [Scrapy]() , [Mysql]() , [MongoDB]()。在Flask和Django上都写过restful接口 , 用Scrapy爬取多种网站数据。
+
+
+---
