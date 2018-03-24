@@ -5,7 +5,7 @@ Resume-it
 效果：https://tianlikai.github.io
 如果喜欢的话请给个star ^_^
 
-![](./resume.png)
+![](./resume.jpg)
 
 Node version v7.10.0
 
