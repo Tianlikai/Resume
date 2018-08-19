@@ -152,6 +152,14 @@ experience: # 项目经验
               出于能在上海长期发展，并且为了提升自己加入了论答(面向k12的一家AI教育科技公司)
         project:
           -
+            name: 论答教学系统
+            date: 
+            img: 
+            website: 
+            source_code:
+            des: !!md |
+              包含教师端和学生端的，在线学生教师互动教学系统。
+          -
             name: 论答官网
             date: 
             img: 
@@ -159,6 +167,20 @@ experience: # 项目经验
             source_code:
             des: !!md |
               公司2B业务官网,media+rem响应式设计.
+          -
+            name: 论答机构管理系统
+            date: 
+            img: 
+            website: https://learnta.cn/entry_admin#/signin
+            source_code:
+            des: !!md |
+          -
+            name: 论答活动页面
+            date: 
+            img: 
+            website: https://www.learnta.com/activity
+            source_code:
+            des: !!md |
             
 skill: # 技能清单
       -
