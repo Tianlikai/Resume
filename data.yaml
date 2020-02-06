@@ -1,8 +1,8 @@
 ---
-update_time: '2017.08.06'
+update_time: '2018.08.14'
 name: 田力凯
 nickname: jason.tian
-meta_content: 前端狗一枚，求带走
+meta_content: 目标前端
 keywords: jason,前端,工作,简历
 ga_id: 'UA-92595311-1'
 age: 23岁
@@ -53,7 +53,7 @@ experience: # 项目经验
     project:
       -
         name: Spa System
-        date: 2017.12 - 至今
+        date: 2017.12
         img:
         website:
         source_code: https://github.com/Tianlikai/React-Dev-Gulp
@@ -73,6 +73,14 @@ experience: # 项目经验
           通过不停的折腾，先在原有gulp + webpack方案上添加了gulp-browsersync，但不久发现由于webpack转译代码并没有优化，更改js代码打包依然慢，于是直接使用webpack。
 
           最终综合github上的解决方案，在原有基础上添加公共打包、代码切割（按需加载）、热重载等功能。
+      -
+        name: mobx
+        date: 2018.08
+        img:
+        website:
+        source_code: https://github.com/Tianlikai/mobxSpa
+        des: !!md |
+          轻松实现企业级中后台基于react16.3x、react-router4、mobx、axios、antd、webpack4.x.
   -
     section: 工作经历
     exper:
@@ -95,11 +103,10 @@ experience: # 项目经验
       #       des: !!md |
       #         在开发的过程中，团队协作至关重要。在一个需求开始动手写之前和团队成员讨论时对每一细节点都要达成一致以提高效率。在动手写代码前，先抽象一个整体思路，再看各个小的部分是否能实现，然后再码。
       - 
-        company: 爱数
-        date: 
+        company: 上海爱数 
+        date: 2017
         desc: !!md |
-              通过秋招加入了爱数的凡响大数据事业部，主要研发方向是基于智能算法为B2B企业提供数据分析和数据可视化服务。
-              从实习至今做过python数据爬虫，还原官网设计稿，数中数Spa项目研发需求、sass平台需求，到现在开始写python后端接口。
+              通过秋招加入了爱数,主要研发方向是基于智能算法为B2B企业提供数据分析和数据可视化服务。
         project:
           -
             name: 数中数本地分析引擎
@@ -124,7 +131,7 @@ experience: # 项目经验
               目前也在用[python]()写很多数中数需求的后端接口，对前[前后端同构]()、服务器端渲染也在研究和实践中。
           -
             name: 数中数爬虫系统
-            date: 2017.03 - 2017.05 
+            date:
             img: 
             website: 
             source_code:
@@ -133,27 +140,64 @@ experience: # 项目经验
               在导师的指导下，快速的学习了python基础语法和scrapy框架。爬虫过程中遇到的坑和问题实在太多啦，比如代理、反扒、url变更、网站升级等等。让自己掌握解决问题的方式和一门后端语言。
           -
             name: 数中数官网
-            date: 2017.02
+            date:
             img:
             website: https://www.51desk.com/
             source_code:
             des: !!md |
+      - 
+        company: 爱论答
+        date: 2018
+        desc: !!md |
+              出于能在上海长期发展，并且为了提升自己加入了论答(面向k12的一家AI教育科技公司)
+        project:
+          -
+            name: 论答教学系统
+            date: 
+            img: 
+            website: 
+            source_code:
+            des: !!md |
+              包含教师端和学生端的，在线学生教师互动教学系统。
+          -
+            name: 论答官网
+            date: 
+            img: 
+            website: https://www.learnta.com/official/home
+            source_code:
+            des: !!md |
+              公司2B业务官网,media+rem响应式设计.
+          -
+            name: 论答机构管理系统
+            date: 
+            img: 
+            website: https://learnta.cn/entry_admin#/signin
+            source_code:
+            des: !!md |
+          -
+            name: 论答活动页面
+            date: 
+            img: 
+            website: https://www.learnta.com/activity
+            source_code:
+            des: !!md |
+            
 skill: # 技能清单
       -
         des: !!md |
           能够用 HTML + CSS 编写语义化的代码，完成较复杂的布局，熟悉[Scss]()预处理工具。
       -
         des: !!md |
-          在公司的Spa项目中熟练掌握[React]() 技术栈，能抽象编写多种React组件[Demo](https://github.com/Tianlikai/React-Dev)。 在组件和业务代码的编写上能灵活运用[高阶组件]()和[组合]()的方式使代码优雅，在此过程中使用了[es6、es7]()语法。
+          精通react以及抽象组件，对于[react+redux]()、[react+mobx]()、[react+reflux]()的中后台系统都能轻松搭建。
       -
         des: !!md |
-          熟练[Redux]()、[Reflux]() 等状态管理管理工具。用[Echarts](https://github.com/Tianlikai/React-Dev-Gulp/tree/master/public/app/common/echarts)写过多种图表配置文件。
+          重写过[Redux]()源代码、实战过[mobx]()和[Reflux]() 等状态管理管理工具。熟练[Echarts](https://github.com/Tianlikai/React-Dev-Gulp/tree/master/public/app/common/echarts)配置文件。
       -
         des: !!md |
-          熟练[Webpack]()和[Gulp]()等构建工具，基于以上技术栈在Webpack和Gulp上都能搭建完整开发环境[Demo](https://github.com/Tianlikai/React-Dev-Gulp)。
+          熟练搭建[Webpack4]()和[Gulp]()等构建工具。
       -
         des: !!md |
-          熟悉 [Flask](), [Django](), [Scrapy]() , [Mysql]() , [MongoDB]()。在Flask和Django上都写过restful接口 , 用Scrapy爬取多种网站数据。
+          在开发项目种使用过 [koa2](), [Flask](), [Django](), [Scrapy]() , [Mysql]() , [MongoDB]()。在Flask和Django上都写过restful接口 , 用Scrapy爬取多种网站数据。
 
 
 ---
