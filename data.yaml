@@ -1,21 +1,21 @@
 ---
-update_time: '2018.08.14'
+update_time: '2020.03.04'
 name: 田力凯
-nickname: jason.tian
+nickname: jason.Tian
 meta_content: 目标前端
 keywords: jason,前端,工作,简历
 ga_id: 'UA-92595311-1'
-age: 23岁
+age: 25岁
 gender: 男
 school: 黑龙江大学
 profession: 信息系统
 # grade: 1年
-exper: 1年
+exper: 3年
 english_level: CET-4
 # blog: https://www.xiao555.com.cn
 github: https://github.com/Tianlikai 
 website: 
-online: https://tianlikai.github.io/
+# online: https://tianlikai.github.io/
 print: 
 apply_to_position: Web前端工程师
 description: !!md |
@@ -36,74 +36,89 @@ contact: # 联系方式
 honor: # 奖项荣誉
 tech: # 技能点
   -
-    name: HTML/CSS
+    name: HTML\CSS
     percentage: 80%
   -
-    name: JavaScript
+    name: JavaScript 
     percentage: 75%
   -
-    name: React + 
-    percentage: 75%
+    name: TypeScript 
+    percentage: 70%
   - 
-    name: Python
-    percentage: 50%
+    name: React
+    percentage: 75%
 experience: # 项目经验
   -
     section: 个人项目
     project:
       -
-        name: Spa System
-        date: 2017.12
+        name: boilerplate-typeScript-reduxFlow
+        date: 
         img:
         website:
-        source_code: https://github.com/Tianlikai/React-Dev-Gulp
+        source_code: https://github.com/Tianlikai/boilerplate-typeScript-reduxFlow
         des: !!md |
-          在项目研发过程中遇到的坑，如css/js没有代码规范、组件没有明确的使用文档、组件编写语法不统一、状态管理混乱、异步请求没有考虑网络外部环境等等。所以做出了一些改进。
-          
-          参照[react-toolbox]()、[antd]()等设计思路，基于scss + react + eslint写组件，react-router路由，redux和redux-saga管理状态和异步请求，webpack打包优化(热加载、切割、按需加载、公共打包)，fetch + mock做网络请求数据，
+          这是一个非常适合搭建大型复杂项目的脚手架，具有ts语言环境，redux + redux saga 数据流，清晰的业务结构，类型安全的表单，完备的代码lint和git hook，支持国际化，完备的权限系统等等特性。
       -
-        name: React Dev 
-        date: 2017.12
+        name: type-safe-form
+        date: 
         img:
         website:
-        source_code: https://github.com/Tianlikai/React-Dev
+        source_code: 
         des: !!md |
-          刚接手项目时，项目简单使用webpack做代码转译gulp做压缩打包，没有任何优化处理开发效率极低。
-
-          通过不停的折腾，先在原有gulp + webpack方案上添加了gulp-browsersync，但不久发现由于webpack转译代码并没有优化，更改js代码打包依然慢，于是直接使用webpack。
-
-          最终综合github上的解决方案，在原有基础上添加公共打包、代码切割（按需加载）、热重载等功能。
+          类型安全的表单方案
       -
-        name: mobx
-        date: 2018.08
+        name: rrs-bootstrap
+        date: 
+        img:
+        website:
+        source_code: 
+        des: !!md |
+          react & redux & redux-saga的一个初始化封装
+      -
+        name: mobx Spa
+        date: 
         img:
         website:
         source_code: https://github.com/Tianlikai/mobxSpa
         des: !!md |
-          轻松实现企业级中后台基于react16.3x、react-router4、mobx、axios、antd、webpack4.x.
+          这是一个非常适合搭建中小型项目的脚手架，以mobx数据流的方式实现了常见的中后台业务。
   -
     section: 工作经历
     exper:
-      # - 
-      #   company: 爱数
-      #   time: 
-      #   desc: !!md |
-      #     实习期间到毕业转正都在爱数的大数据研发中心工作，实习期间主要负责[数中数]()官网需求和项目的数据抓取需求。转正后个人就接手[数中数]()Spa项目、负责该项目的前端需求和bug修护以及项目优化。
-      #   project:
-      #     -
-      #       des: !!md |
-      #         实习期间，作为前端的我实习岗位是python后端开发工程师，当时工作就是维护项目官网和爬虫系统的爬虫编写的工作。在两周的时间里学习python基础语法、scrapy框架、复习了mysql和MongoDB。就立即开始了网站数据抓取工作，爬虫过程中遇到的坑和问题实在太多啦，比如代理、反扒、url变更、网站升级等等。
-      #     -
-      #       des: !!md |
-      #         在数中数Spa项目的研发过程中我得到了质的提升。从项目的目录组织方式、页面布局、样式规范约定、js语法规范约定、基础组件编写以及组件api、高阶组件和公共方法、按需路由、状态管理和异步请求、单元测试、gulp以及webpack开发环境等都有搭建的经验。
-      #     -
-      #       des: !!md |
-      #         在解决bug的过程中，也积累了不少经验，总结中发现很多知识的细节点都是bug的产生点，很多离奇的bug几乎都是对基础语法的特性不熟悉造成的。所以只有多写代码当实际遇到问题总结经验，避免下次再犯。
-      #     -
-      #       des: !!md |
-      #         在开发的过程中，团队协作至关重要。在一个需求开始动手写之前和团队成员讨论时对每一细节点都要达成一致以提高效率。在动手写代码前，先抽象一个整体思路，再看各个小的部分是否能实现，然后再码。
       - 
-        company: 上海爱数 
+        company: 依图科技
+        date: 2019
+        desc: !!md |
+            AI头部公司，从事人工智能创新型研究，致力于将先进的人工智能技术与行业应用相结合，建设更加安全、健康、便利的世界。
+        project:
+          -
+            name: 图像围栏
+            date: 
+            img: 
+            website: 
+            source_code:
+            des: !!md |
+              图像围栏是一个基于摄像头实时抓拍，根据抓拍信息进行人员聚档，形成一人一档的数据集，达到辅助民警工作的安防系统。
+              技术栈：[TypeScript + React + Redux]()
+              \* 100%完成产品业务需求
+              \* 参与2019进博会演示版本开发，在展会前夕和期间近乎全天支持前场的紧急迭代以及线上bug，记忆最深的是一个已知的大量图片展示会卡死的问题一直没有得到解决，我在部署前通宵调试完成了问题的定位以及修复。保证了系统的稳定展示，成功的展示了系统的能力。
+              \* 做了大规模摄像头组件优化设计，背景是项目在初始化会阻塞的获取全部摄像头数据，在生产环境下上100M，用户反馈初始化等待达10s以上。难点是当前前后端大量的业务和组件依赖于该数据，而且升级后需要兼容老的数据。这不但需要前端梳理依赖于该数据的组件以及接口，还需要配合后端和ued确定新的API以及组件。确定完API和组件UI后，实现了基于层级的懒加载摄像头面包树和地图懒加载摄像头。然后就是实际业务组件的替换，过程中也是不断有问题出现。一步一步填坑完成了组件替换，解决了阻塞的问题。
+          -
+            name: 数字依图
+            date: 
+            img: 
+            website: 
+            source_code:
+            des: !!md |
+              数字依图是一个包含商机、借用、合同、入职管理等多个子系统的内部门户系统。
+              技术栈：[TypeScript + React + Redux]()
+              \* 100%完成业务需求，期间配合UED基于Rem + Media方案完成过多个web自适应页面。
+              \* 做了基于Apollo的国际化方案，背景是项目部分文案改动频率大，前端写死每次都需要重上线效率差。难点在于项目有国际化需求，并且要结合Apollo动态导入文案配置。经过调研后设计了I18NProvider组件，在项目初始化拉去Apollo数据初始化react-intl的语言环境，并且使用babel-plugin-react-intl + react-intl-translations-manager工具优化文案翻译流程。并且输出了react-intl不同场景的使用方式和命名规范文档。最终成功push到了该项目的其余子系统。
+              \* 推动内部自动化冒烟测试方案，痛点时测试编写的冒烟用例不易理解并且手工点击效率低，所以该方案是通过录屏的方式完成cyPress测试脚本编写，最终基于图像比对的方式进行冒烟测试。我负责将方案配置到了各个子系统，极大的提升了工作效率。
+
+      - 
+        company: 上海爱数
         date: 2017
         desc: !!md |
               通过秋招加入了爱数,主要研发方向是基于智能算法为B2B企业提供数据分析和数据可视化服务。
@@ -112,92 +127,36 @@ experience: # 项目经验
             name: 数中数本地分析引擎
             date: 
             img: 
-            website: http://data.neirongjia.com/#/?_k=macpzt
+            website: 
             source_code:
             des: !!md |
-              数中数是一个数据分析产品，有非常多可视化交互并且业务逻辑非常复杂。
-              从接手项目开始，就发现react项目维护特别困难。如果组件没有文档和规范，接手难度会急剧增加。
-              在项目需求的更迭和踩坑中发现，离奇bug往往是基础知识点的疏忽，一定要做到知错能改。
-              在技术上我也比较愿意折腾，自学echarts，从发现项目的不规范到引入eslint工具，从没有模拟接口到引入mockjs，从gulp的慢和没有优化迁移到webpack打包工具，从复杂业务中发现reflux很难维护数据到迁移到redux管理数据和异步请求，属性代理、渲染接触和组合都有实战和比较分析。
-              一个严格的代码规范和文档，以及团队开会尽可能讨论明确业务细节，是我最大的收获。
+              数中数是一个数据分析产品，通过数据筛选生成图表。
+              技术栈：[React + Reflux]()
+              \* 做了打包方案升级，背景是项目原先采用了最基础的gulp + webpack方案，开发效率低下。当时才接触webpack，并且文档也不太友好，在没有任何排期的情况下， 在业余时间经过反复的折腾定位到性能卡在gulp上，所以对原先使用gulp做的操作用webpack进行了替换。最终有效的提升了打包构建速度，实现了开发环境的热更新。
+              \* 开始了项目的规范化建设，这件事的开始是通过社区了解到项目中缺失这部分工具，当逐步将esLint和styleLint引入项目时发现了其背后的好处，规范提高了项目的可读性和维护性，并且使开发流程变得流程化。为项目定制了文件结构、结构下的文件命名、常量命名、css命名、组件模板等等规范，最终作为了部门的模板项目。
+              \* 前端独立开发环境方案调研，背景是当前和后端是通过文档对接口，前端需要自己在本地手动造假数据。当时比较了mockJs，webpack-api-mocker，以及yApi三种方案，前两种在本地维护mock数据，而yApi在远端维护而且具有易迭代和文档的功能，所以选择了yApi。虽然Linux不太好但最终还是在服务器上部署了一套环境。
+              \* 做了一段时间的后端开发，事由是当时后端离职，所以临时需要我来完成后端api迭代，当时后端用的了Flask和Django，我差不多是Python的入门水平，前后一个多月时间边学边问边开发，很好完成了工作。
           -
             name: 数中数sass平台
             date: 
             img: 
-            website: https://console.eisoo.com/?redirect_url=https://user.51desk.com&redirect_uri=#/?_k=4jsgut
+            website:
             source_code:
             des: !!md |
-              接手这个项目时已经对团队的框架比较熟悉了，从项目的目录组织方式、页面布局、代码约束、组件文档、状态管理、mock数据、打包工具、性能优化都能熟练搭建。
-              目前也在用[python]()写很多数中数需求的后端接口，对前[前后端同构]()、服务器端渲染也在研究和实践中。
-          -
-            name: 数中数爬虫系统
-            date:
-            img: 
-            website: 
-            source_code:
-            des: !!md |
-              实习期间，想多了解后端的知识。所以总监让我学习python做数据运维的工作。
-              在导师的指导下，快速的学习了python基础语法和scrapy框架。爬虫过程中遇到的坑和问题实在太多啦，比如代理、反扒、url变更、网站升级等等。让自己掌握解决问题的方式和一门后端语言。
-          -
-            name: 数中数官网
-            date:
-            img:
-            website: https://www.51desk.com/
-            source_code:
-            des: !!md |
-      - 
-        company: 爱论答
-        date: 2018
-        desc: !!md |
-              出于能在上海长期发展，并且为了提升自己加入了论答(面向k12的一家AI教育科技公司)
-        project:
-          -
-            name: 论答教学系统
-            date: 
-            img: 
-            website: 
-            source_code:
-            des: !!md |
-              包含教师端和学生端的，在线学生教师互动教学系统。
-          -
-            name: 论答官网
-            date: 
-            img: 
-            website: https://www.learnta.com/official/home
-            source_code:
-            des: !!md |
-              公司2B业务官网,media+rem响应式设计.
-          -
-            name: 论答机构管理系统
-            date: 
-            img: 
-            website: https://learnta.cn/entry_admin#/signin
-            source_code:
-            des: !!md |
-          -
-            name: 论答活动页面
-            date: 
-            img: 
-            website: https://www.learnta.com/activity
-            source_code:
-            des: !!md |
-            
+              技术栈：[React + mobx]()
+              \* 项目脚手架搭建，背景是这是一个全新的项目，并且当前部门其他项目使用的技术栈也比较过时，所以准备进行升级。首先是reflux已经停止维护，所以在redux和mobx中进行了调研，最终考虑到项目复杂度和时间成本选择了mobx。并且将发起api请求的原生AJAX封装改为了axios。同时router和webpack都升级到了4.x，并且配合react-loadable进行了懒加载。规范上添加了pre-commit进行git提交规范。最终产出是多个小型项目都使用了该脚手架。
+
 skill: # 技能清单
       -
         des: !!md |
-          能够用 HTML + CSS 编写语义化的代码，完成较复杂的布局，熟悉[Scss]()预处理工具。
+          目前主攻前端，熟悉[React 技术栈]()，擅长于 [SPA 工程搭建和业务优化]()。
       -
         des: !!md |
-          精通react以及抽象组件，对于[react+redux]()、[react+mobx]()、[react+reflux]()的中后台系统都能轻松搭建。
+          在大型项目中实践过[规范化前端工程]()，设计过[脚手架种子项目]()，项目迭代中也做过[技术栈升级]()
       -
         des: !!md |
-          重写过[Redux]()源代码、实战过[mobx]()和[Reflux]() 等状态管理管理工具。熟练[Echarts](https://github.com/Tianlikai/React-Dev-Gulp/tree/master/public/app/common/echarts)配置文件。
+          在业务开发中，设计过常见的[业务模块]()，[通用组件]()以及[组件优化方案]()。
       -
         des: !!md |
-          熟练搭建[Webpack4]()和[Gulp]()等构建工具。
-      -
-        des: !!md |
-          在开发项目种使用过 [koa2](), [Flask](), [Django](), [Scrapy]() , [Mysql]() , [MongoDB]()。在Flask和Django上都写过restful接口 , 用Scrapy爬取多种网站数据。
-
-
+          我热衷于前端技术学习，对于[js基础]()，[es6 + 等高级语法实现方式]()，[TypeScript]()，[技术栈实现方式]()，网络，部署，Node，我都有计划的学习，总结和分享。
 ---
