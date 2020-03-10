@@ -59,22 +59,22 @@ experience: # 项目经验
         source_code: https://github.com/Tianlikai/boilerplate-typeScript-reduxFlow
         des: !!md |
           这是一个非常适合搭建大型复杂项目的脚手架，具有ts语言环境，redux + redux saga 数据流，清晰的业务结构，类型安全的表单，完备的代码lint和git hook，支持国际化，完备的权限系统等等特性。
-      -
-        name: type-safe-form
-        date: 
-        img:
-        website:
-        source_code: 
-        des: !!md |
-          类型安全的表单方案
-      -
-        name: rrs-bootstrap
-        date: 
-        img:
-        website:
-        source_code: 
-        des: !!md |
-          react & redux & redux-saga的一个初始化封装
+      # -
+      #   name: type-safe-form
+      #   date: 
+      #   img:
+      #   website:
+      #   source_code: 
+      #   des: !!md |
+      #     类型安全的表单方案
+      # -
+      #   name: rrs-bootstrap
+      #   date: 
+      #   img:
+      #   website:
+      #   source_code: 
+      #   des: !!md |
+      #     react & redux & redux-saga的一个初始化封装
       -
         name: mobx Spa
         date: 
@@ -137,7 +137,7 @@ experience: # 项目经验
               \* 前端独立开发环境方案调研，背景是当前和后端是通过文档对接口，前端需要自己在本地手动造假数据。当时比较了mockJs，webpack-api-mocker，以及yApi三种方案，前两种在本地维护mock数据，而yApi在远端维护而且具有易迭代和文档的功能，所以选择了yApi。虽然Linux不太好但最终还是在服务器上部署了一套环境。
               \* 做了一段时间的后端开发，事由是当时后端离职，所以临时需要我来完成后端api迭代，当时后端用的了Flask和Django，我差不多是Python的入门水平，前后一个多月时间边学边问边开发，很好完成了工作。
           -
-            name: 数中数sass平台
+            name: 内容家后台系统
             date: 
             img: 
             website:
