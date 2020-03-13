@@ -55,7 +55,7 @@ experience: # 项目经验
         name: boilerplate-typeScript-reduxFlow
         date: 
         img:
-        website:
+        website: http://175.24.75.141/
         source_code: https://github.com/Tianlikai/boilerplate-typeScript-reduxFlow
         des: !!md |
           这是一个非常适合搭建大型复杂项目的脚手架，具有ts语言环境，redux + redux saga 数据流，清晰的业务结构，类型安全的表单，完备的代码lint和git hook，支持国际化，完备的权限系统等等特性。
