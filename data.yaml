@@ -58,7 +58,7 @@ experience: # 项目经验
         website: http://175.24.75.141/
         source_code: https://github.com/Tianlikai/boilerplate-typeScript-reduxFlow
         des: !!md |
-          这是一个非常适合搭建大型复杂项目的脚手架，具有ts语言环境，redux + redux saga 数据流，清晰的业务结构，类型安全的表单，完备的代码lint和git hook，支持国际化，完备的权限系统等等特性。
+          这是一个非常适合搭建大型复杂项目的前端spa项目脚手架，使用redux + redux saga 数据流，对redux中间件配置进行了封装，制定了清晰的业务结构。具有ts语言环境，封装了类型安全的表单。工程上具有完备的代码lint，git hook和代码规范。支持国际化，并具有可拓展的权限系统。
       # -
       #   name: type-safe-form
       #   date: 
@@ -83,6 +83,14 @@ experience: # 项目经验
         source_code: https://github.com/Tianlikai/mobxSpa
         des: !!md |
           这是一个非常适合搭建中小型项目的脚手架，以mobx数据流的方式实现了常见的中后台业务。
+      -
+        name:  type-safe-form
+        date:
+        img:
+        website:
+        source_code: https://github.com/Tianlikai/boilerplate-typeScript-reduxFlow/tree/master/src/packages/type-safe-form
+        des: !!md |
+           这是一个类型安全的表单设计方案，对表单的每一项都具有类型约束，针对表单数据和表单展现进行了分离，使用的时候需要自行组合组件生成表单。
   -
     section: 工作经历
     exper:
@@ -93,6 +101,10 @@ experience: # 项目经验
             AI头部公司，从事人工智能创新型研究，致力于将先进的人工智能技术与行业应用相结合，建设更加安全、健康、便利的世界。
         project:
           -
+            name:
+            des: !!md |
+              -
+          -
             name: 图像围栏
             date: 
             img: 
@@ -102,8 +114,13 @@ experience: # 项目经验
               图像围栏是一个基于摄像头实时抓拍，根据抓拍信息进行人员聚档，形成一人一档的数据集，达到辅助民警工作的安防系统。
               技术栈：[TypeScript + React + Redux]()
               \* 100%完成产品业务需求
+              \* 迁移ant design表单到类型安全的表单，背景是ant design提供的表单对于表单项的类型没有严格的定义且没有语法提示，所以基于ant design表单的api设计了一套类型安全的表单管理方案[type-safe-form](https://github.com/Tianlikai/boilerplate-typeScript-reduxFlow/tree/master/src/packages/type-safe-form)，将表单的数据和展示分离，方便灵活的组建表单。最开始由于没有使用文档，经常导致误用，所以在项目逐渐迁移的过程中，总结出了一些使用上的实例，最终很好的替换了ant design表单。
               \* 参与2019进博会演示版本开发，在展会前夕和期间近乎全天支持前场的紧急迭代以及线上bug，记忆最深的是一个已知的大量图片展示会卡死的问题一直没有得到解决，我在部署前通宵调试完成了问题的定位以及修复。保证了系统的稳定展示，成功的展示了系统的能力。
               \* 做了大规模摄像头组件优化设计，背景是项目在初始化会阻塞的获取全部摄像头数据，在生产环境下上100M，用户反馈初始化等待达10s以上。难点是当前前后端大量的业务和组件依赖于该数据，而且升级后需要兼容老的数据。这不但需要前端梳理依赖于该数据的组件以及接口，还需要配合后端和ued确定新的API以及组件。确定完API和组件UI后，实现了基于层级的懒加载摄像头面包树和地图懒加载摄像头。然后就是实际业务组件的替换，过程中也是不断有问题出现。一步一步填坑完成了组件替换，解决了阻塞的问题。
+          -
+            name:
+            des: !!md |
+              -          
           -
             name: 数字依图
             date: 
@@ -116,13 +133,28 @@ experience: # 项目经验
               \* 100%完成业务需求，期间配合UED基于Rem + Media方案完成过多个web自适应页面。
               \* 做了基于Apollo的国际化方案，背景是项目部分文案改动频率大，前端写死每次都需要重上线效率差。难点在于项目有国际化需求，并且要结合Apollo动态导入文案配置。经过调研后设计了I18NProvider组件，在项目初始化拉去Apollo数据初始化react-intl的语言环境，并且使用babel-plugin-react-intl + react-intl-translations-manager工具优化文案翻译流程。并且输出了react-intl不同场景的使用方式和命名规范文档。最终成功push到了该项目的其余子系统。
               \* 推动内部自动化冒烟测试方案，痛点时测试编写的冒烟用例不易理解并且手工点击效率低，所以该方案是通过录屏的方式完成cyPress测试脚本编写，最终基于图像比对的方式进行冒烟测试。我负责将方案配置到了各个子系统，极大的提升了工作效率。
-
-      - 
+          -
+            name:
+            des: !!md | 
+              -
+          -
+            name:
+            des: !!md |
+              -
+          -
+            name:
+            des: !!md |
+              -
+      -
         company: 上海爱数
         date: 2017
         desc: !!md |
               通过秋招加入了爱数,主要研发方向是基于智能算法为B2B企业提供数据分析和数据可视化服务。
         project:
+          -
+            name:
+            des: !!md | 
+              -        
           -
             name: 数中数本地分析引擎
             date: 
@@ -137,6 +169,10 @@ experience: # 项目经验
               \* 前端独立开发环境方案调研，背景是当前和后端是通过文档对接口，前端需要自己在本地手动造假数据。当时比较了mockJs，webpack-api-mocker，以及yApi三种方案，前两种在本地维护mock数据，而yApi在远端维护而且具有易迭代和文档的功能，所以选择了yApi。虽然Linux不太好但最终还是在服务器上部署了一套环境。
               \* 做了一段时间的后端开发，事由是当时后端离职，所以临时需要我来完成后端api迭代，当时后端用的了Flask和Django，我差不多是Python的入门水平，前后一个多月时间边学边问边开发，很好完成了工作。
           -
+            name:
+            des: !!md | 
+              -        
+          -
             name: 内容家后台系统
             date: 
             img: 
@@ -145,6 +181,7 @@ experience: # 项目经验
             des: !!md |
               技术栈：[React + mobx]()
               \* 项目脚手架搭建，背景是这是一个全新的项目，并且当前部门其他项目使用的技术栈也比较过时，所以准备进行升级。首先是reflux已经停止维护，所以在redux和mobx中进行了调研，最终考虑到项目复杂度和时间成本选择了mobx。并且将发起api请求的原生AJAX封装改为了axios。同时router和webpack都升级到了4.x，并且配合react-loadable进行了懒加载。规范上添加了pre-commit进行git提交规范。最终产出是多个小型项目都使用了该脚手架。
+
 
 skill: # 技能清单
       -
